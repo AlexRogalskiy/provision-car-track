@@ -24,16 +24,27 @@ Entities
 
 We can divide this system in 2 main areas
  - Record Entities: These represent the general entity register, low volume tables
+    
     Engine Type: Name 
+    
     Make: Name
+    
     Model: Make id, Name, Year
+    
+    
     Vehicle: Model id, Driver id
+    
     Reading Type: Name (Odometer, Battery strength, tire thread, oil level, disk wear, filter wear)
+    
     Task Type: Name, Allowed Engine Type ids []
  
+ 
  - Action Entities: These will have a high volume as they represent every event that happened to a car 
+    
     Task Execution: Task Type id, executed_at date, user_executed_by id
+    
     Reading Execution: Car id, Reading Type id, Odometer value, reading value 
+    
     Event: Event Type ex: Task_created, Task_updated, Task_removed, Reading_created, Reading_updated, Reading_removed, User id, timestamp, payload json
     
 #### Notes on future evolution of the system
