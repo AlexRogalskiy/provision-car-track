@@ -12,7 +12,7 @@ Domain: CAR MAINTENANCE
 
 Context: Tracking of mechanical readings and maintenance tasks
 
-Main Actions: 
+Main Features: 
  - Register READINGS of Odometer, Tire wear, battery capacity, brake fluid level, oil level.
  - Register MAINTENANCE TASKS like oil change, tire rotation, Brake Jobs, Filter change.
  - Manage Base Entities
