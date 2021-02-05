@@ -4,6 +4,7 @@ Sample Java Rest API
 Design Doc
 
 I will model the domain from a truck  freight company perspective, Not from a car repair shop 
+
 Therefore, the maintenance tasks and readings will be modeled for analitical purposes, not a sales purpose
 
 
