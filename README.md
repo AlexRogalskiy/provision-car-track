@@ -60,8 +60,10 @@ We can divide this system in 2 main areas
 
 #### Moving Parts
 - Create 1 database for tests in postgres: provision_test
+- Please edit application-test.properties to match your env 
 - To run the tests: `mvn clean test`
 - The app runs on postgres default db: postgres
+- Please edit application.properties to match your env
 - To run the app: `mvn spring-boot:run`
 - Go to `http://localhost:8080/swagger-ui.html` to see docs in swagger page
 
