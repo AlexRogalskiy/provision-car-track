@@ -62,3 +62,9 @@ We can divide this system in 2 main areas
 - To run the tests: `mvn clean test`
 - To run the app: `mvn spring-boot:run`
 - Go to `http://localhost:8080/swagger-ui.html` to see docs in swagger page
+
+#### versions
+- Java 11
+- Maven 3.6.3
+- Postgres 12
+- Springboot 2.4.2
